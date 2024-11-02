@@ -1,0 +1,16 @@
+hybridtask = executable(
+	meson.project_name(),
+	files(['main.c',
+	'calc_basic.c',
+	'callbacks.c',
+	'config_file.c',
+	'display.c',
+	'flex_parser.c',
+	'general_functions.c',
+	'ui.c',
+	'math_functions.c',
+	]),
+	dependencies: [gtk3,m_dep,quadmath,gmod,gdkpixbuf,cairo,pango,pangocairo,harfbuzz,
+	gdk,glib,gio,cairogobject,atk],
+	install: true,
+)

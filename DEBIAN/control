@@ -1,0 +1,9 @@
+Package: xpde-calc
+Version: 1.0.0+git2024.11.02
+Architecture: amd64
+Maintainer: hcsubser
+Installed-Size: 820
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.14.0), libgdk-pixbuf2.0-0 (>= 2.36.5),  libglib2.0-0 (>= 2.42.0), libgtk-3-0 (>= 3.22.0), libharfbuzz0b, libpango-1.0-0, libpangocairo-1.0-0, libatk1.0-0
+Priority: optional
+Homepage: https://github.com/hcsubser/xpde-calc
+Description: Windows XP Calculator Clone

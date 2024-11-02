@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Xpde Calculator
+Comment=Perform arithmetic, scientific or financial calculations
+GenericName=Calculator
+Exec=xpde-calc
+Icon=calculator
+Type=Application
+Categories=Utility;
